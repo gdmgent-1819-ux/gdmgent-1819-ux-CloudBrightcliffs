@@ -1,0 +1,34 @@
+
+:root {
+  /**
+   * Colour palette
+   */
+   --c-Black: rgb(0, 0, 0);
+   --c-Black-Transparent: rgba(0, 0, 0, 0.6);
+   --c-Purple: rgb(129,75,195);
+   --c-White-Transparent: rgba(255, 255, 255, 0.75);
+   --c-White: rgb(255, 255, 255);
+
+   --c-Primary: var(--c-Purple);
+   --c-Secondary: var(--c-Black);
+
+  /**
+   * Layout
+   */
+  --l-gutter: 1rem;
+
+  /**
+   * Typography
+   */
+   --f-body: 'Lao MN';
+   --f-heading: 'Always Forever';
+  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-tertiary: monospace;
+
+  --t-headline: var(--t-primary);
+  --t-subtitle: var(--t-primary);
+  --t-body: var(--t-secondary);
+  --t-code: var(--t-tertiary);
+}
+
+
