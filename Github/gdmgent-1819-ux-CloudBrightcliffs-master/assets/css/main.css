@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import url('variables.css');
+@import url('base.css');
+
+@import url('components/flex-grid.css');
+@import url('components/buttons.css');
+@import url('components/forms.css');
+
+
+
+body {
+    background-size: cover;
+    font-family: var(--f-body);
+
+}
+
+
+@media (max-width: 575px) {
+    body {
+        background-image: url(../Pics/HomePageSmall.jpg);
+    }
+
+    body::after {}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-image: url(../Pics/HomePageSmall.jpg);
+    }
+
+    body::after {}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        background-image: url(../Pics/Homepage.png);
+    }
+
+    body::after {}
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../Pics/Homepage.png);
+    }
+
+    body::after {}
+}
+
+.col {
+    background-color: var(--c-White-Transparent);
+    color: var(--c-Primary);
+    border-radius: 0px 0px 25px 25px;
+    padding: 13px;
+    word-spacing: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-Primary);
+}
+
+.homeBtn {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.Name {
+    position: absolute;
+    width: 200px; 
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 20px;
+    font-size: 110px;
+    font-family: var(--f-heading);
+    color: #fff;
+    background-color: #00000080;
+    text-align: center;
+}
+
+.faq{
+    color: var(--c-Primary);
+    position: absolute;
+    margin-top: 580px;
+}
